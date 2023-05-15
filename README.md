@@ -1,9 +1,9 @@
 
-#### Documentation
+### Documentation
 
 Read the docs
 
-#### Queries
+### Queries
 
 -   Top trending tags appearing in StackOverFlow in a given date range.
 -   Top users in StackOverFlow based on different sort options in a given date range.
@@ -11,16 +11,16 @@ Read the docs
 
 
 
-#### Top trending tags appearing in StackOverFlow
-Command Line Arguments.
+### Top trending tags appearing in StackOverFlow
+#### Command Line Arguments.
 
-order_by = desc (default), asc
-sort_by = popular (default), activity, name
+order_by = desc (default), asc.
+sort_by = popular (default), activity, name.
 
-Definition:
-popular - count
-activity - the creation_date of the last question asked with the tag
-name - name
+Definition.
+popular - count.
+activity - the creation_date of the last question asked with the tag.
+name - name.
 
 ```py
 
@@ -29,16 +29,16 @@ top-trending-tags-appearing-in-StackOverFlow.py -order_by 'desc' -sort_by 'popul
 ```
 
 #### Top users in StackOverFlow
-Command Line Arguments.
+#### Command Line Arguments.
 
-order_by = desc (default), asc
-sort_by = reputation (default), creation, modified, name
+order_by = desc (default), asc.
+sort_by = reputation (default), creation, modified, name.
 
-Definition:
-reputation - reputation
-creation - creation_date
-name - display_name
-modified - last_modified_date
+Definition.
+reputation - reputation.
+creation - creation_date.
+name - display_name.
+modified - last_modified_date.
 
 ```py
 
