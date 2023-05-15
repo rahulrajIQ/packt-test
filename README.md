@@ -46,3 +46,10 @@ top-trending-tags-appearing-in-StackOverFlow.py -order_by 'desc' -sort_by 'popul
 top-users-in-StackOverFlow.py -order_by 'desc' -sort_by 'reputation' -from_date '2023-05-01' -to_date '2023-05-15' 
 
 ```
+
+
+#### Data Pipeline
+
+- The Power BI could run the python script to import the dataframe and use it to further analysis.
+- The DAGs can be created in apache airflow to populate the database using the python script. Later BI could use SQL for dashboard creation.
+- The Airlow can be integrated with the BI to automate the whole process.
